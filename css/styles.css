@@ -1,0 +1,135 @@
+body{
+    width:70%;
+    font-family:"Comic Sans MS" , Helvetica;
+    background-color: powderBlue;
+}
+
+.headings {
+    color:teal;
+    font-family: cursive;
+    text-transform: capitalize;
+}
+
+.subheadings{
+    color:coral;
+    font-family: cursive;
+    text-transform: capitalize;
+    font-weight:bold;
+}
+.main-headings{
+    text-shadow:2px 2px 3px #666666;
+    text-transform:uppercase;
+    font-family:Georgia;
+    color:#0088dd;
+    text-align: center;
+    line-height:0.5;
+}
+
+.author{
+    text-decoration:underline;
+}
+
+.penguin-baby {
+    width: 150px;
+    float: left;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    border:2px double coral;
+    border-radius:15px;
+
+}
+
+.penguin-swimming {
+    width: 150px;
+    float: left;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    border:2px double coral;
+    border-radius:15px;
+
+}
+
+.wings{
+    width: 350px;
+    float: right;
+    margin-right: 6px;
+    margin-bottom: 6px;
+}
+
+.life-cycle{
+    width: 150px;
+    float: left;
+    margin-right: 6px;
+    margin-bottom: 6px;`
+}
+
+.gallery{
+    width: 100%;
+    border: none;
+    float:center;
+}
+
+.penguin-exetinct{
+    width: 500px;
+    float: right;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    border:2px double coral;
+    border-radius:15px;
+}
+
+.info-tabs{
+    top:200px;
+}
+
+.time {
+    float:right;
+    font-size:40px;
+    background:black;
+    color:white;
+    border:black;
+}
+
+.extinct{
+    width:70%;
+    font-family:"Comic Sans MS" , Helvetica;
+    background: #F7F7F7;
+    float:right;
+    width:500px;
+    height:250px;
+    overflow-x:hidden;
+    overflow-y:auto;
+    border:2px double blue;
+    padding:10px 10px;
+    border-radius:10px;
+    margin:1px;
+}
+
+ol{
+    list-style-type: decimal-leading-zero;
+}
+
+
+a:link {
+    text-decoration: none;
+    color:white;
+}
+
+a:visited {
+    text-decoration: none;
+    color:white;
+}
+
+a:hover {
+    text-decoration:none;
+    color:white;
+}
+
+a:active {
+    text-decoration: none;
+    color:white;
+}
+
+#demo{
+    position:absolute;
+}

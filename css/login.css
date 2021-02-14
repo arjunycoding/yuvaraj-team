@@ -1,0 +1,91 @@
+input.login{
+    border:2px solid teal;
+}
+
+.submit:hover{
+    font-size:12px;
+    font-family:cursive,"Comic Sans MS","serif";
+    color:white;
+    background:green;
+    font-weight:bold;
+    word-spacing:0.3em;
+    letter-spacing:0.02em;
+    text-align:center;
+}
+.submit{
+    font-size:12px;
+    border:none;
+    width:70px;
+    height:30px;
+    top:0px;
+    left:0px;
+    background-color:green;
+    color:white;
+    padding:0px 10px 0px 10px;
+    text-transform: uppercase;
+    word-spacing:0.3em;
+    letter-spacing:0.02em;
+    text-align:center;
+}
+
+.cancel{
+    font-size:12px;
+    border:none;
+    width:70px;
+    height:30px;
+    top:0px;
+    left:0px;
+    background-color:red;
+    color:white;
+    padding:0px 10px 0px 10px;
+    text-transform: uppercase;
+    word-spacing:0.3em;
+    letter-spacing:0.02em;
+    text-align:center;
+}
+
+.login-form{
+    float:right;
+}
+
+.login-img{
+    border: 2px solid coral;
+    border-radius: 10px;
+    margin:-5% 10% 5% 10%;
+    width:400px;
+    float: left;
+}
+
+a:link {
+    text-decoration: none;
+    color:white;
+}
+
+a:visited {
+    text-decoration: none;
+    color:white;
+}
+
+a:hover {
+    text-decoration:none;
+    color:white;
+}
+
+a:active {
+    text-decoration: none;
+    color:white;
+}
+
+fieldset{
+    border-color:coral;
+    border-radius:5px;
+}
+
+.main-headings{
+    text-shadow:2px 2px 3px #666666;
+    text-transform:uppercase;
+    font-family:Georgia;
+    color:#0088dd;
+    text-align: center;
+    line-height:0.5;
+}

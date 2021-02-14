@@ -1,0 +1,61 @@
+.topb:hover{
+    font-size:12px;
+    /*background-color:#004864;*/
+    font-family:cursive,"Comic Sans MS","serif";
+    /*color:#D16500;*/
+    color:white;
+    background:#005F85;
+    font-weight:bold;
+    word-spacing:0.3em;
+    letter-spacing:0.02em;
+    text-align:center;
+    cursor:pointer;
+}
+.topb{
+    font-size:12px;
+    border:none;
+    width:130px;
+    height:60px;
+    top:0px;
+    left:0px;
+    background-color:#00709C;
+    color:white;
+    padding:0px 10px 0px 10px;
+    text-transform: uppercase;
+    word-spacing:0.3em;
+    letter-spacing:0.02em;
+    text-align:center;
+    transition-property: background-color;
+    transition-duration: 750ms;
+}
+
+.topBar{
+    width:100%;
+    position:fixed;
+    top:0px;
+    left:0px;
+    background:#00709C;
+}
+
+.advice{
+    width:240px;
+}
+.advice:hover{
+    font-size:1px;
+}
+
+ input[type=text].search {
+      border-radius: 4px;
+      color:black;
+      width: 130px;
+      font-size: 16px;
+      border:2px solid white;
+      background-color: white;
+      background-position: 10px 10px;
+      padding: 10px 20px 12px 40px;
+      transition: width 0.4s ease-in-out;
+ }
+
+ input[type=text]:focus {
+    width: 20%;
+ }
