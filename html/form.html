@@ -3,8 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="../css/form.css">
 </head>
 <body>
-
+<form onsubmit="return validateForm()">
+    <input type="text" name="uname" id="uname" placeholder="Type your username">
+    <span id = "uname-error" class = "good"></span>
+    <br/><br/>
+    <input type="submit" value="JUBMIT">
+</form>
+<script src = "https://truecube.github.io/js-library/displayUrl.js"></script>
+<script src = "../js/login.js"></script>
 </body>
 </html>
