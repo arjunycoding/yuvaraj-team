@@ -3,8 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="../css/form.css">
 </head>
 <body>
-
+    <form onsubmit="return validateForm()" novalidate>
+        <input type="email" name="email" placeholder="email" id="email" onchange="validateEmail()">
+        <span class="good" id="email-error"></span>
+        <br />
+        <br />
+        <input type="submit" value="HEE HEE">
+    </form>
+    <script src="../js/form.js"></script>
 </body>
 </html>

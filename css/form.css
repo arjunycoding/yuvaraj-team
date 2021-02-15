@@ -1,0 +1,8 @@
+.good{
+    display:none;
+}
+.bad{
+      color:red;
+      background-color:yellow;
+      display:inline-block;
+}
