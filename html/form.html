@@ -6,17 +6,12 @@
     <link rel="stylesheet" href="../css/form.css">
 </head>
 <body>
-    <form onsubmit="return validateForm()" novalidate>
-        <input type="text" name="uname" id="uname" placeholder="Type your username" onchange="validateUname()">
-        <span id = "uname-error" class = "good"></span>
-        <br/><br/>
-        <input type="email" name="email" placeholder="Type your email" id="email" onchange="validateEmail()">
-        <span class="good" id="email-error"></span>
-        <br />
-        <br />
-        <input type="submit" value="HEE HEE">
-    </form>
-    <script src="../js/form.js"></script>
+<form onsubmit="return validateForm()">
+    <input type="text" name="uname" id="uname" placeholder="Type your username">
+    <span id = "uname-error" class = "good"></span>
+    <br/><br/>
+    <input type="submit" value="SUBMIT">
+</form>
 <script src = "https://truecube.github.io/js-library/displayUrl.js"></script>
 <script src = "../js/login.js"></script>
 </body>

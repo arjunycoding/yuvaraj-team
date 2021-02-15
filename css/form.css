@@ -2,12 +2,12 @@
     display:none;
 }
 .bad {
-    background: #960e0e;
+    background: #c51244;
     padding: 10px;
     border-radius: 10px;
     position: relative; 
     display: inline-block;
-    box-shadow: 1px 1px 1px #000000;
+    box-shadow: 1px 1px 1px #aaaaaa;
     margin-top: 10px;
     color:white;
 }
