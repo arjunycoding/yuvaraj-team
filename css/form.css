@@ -1,8 +1,13 @@
-.good{
+.good {
     display:none;
 }
-.bad{
-      color:red;
-      background-color:yellow;
-      display:inline-block;
+.bad {
+    background: #c51244;
+    padding: 10px;
+    border-radius: 0;
+    position: relative; 
+    display: inline-block;
+    box-shadow: 1px 1px 1px #aaaaaa;
+    margin-top: 10px;
+    color:white;
 }
