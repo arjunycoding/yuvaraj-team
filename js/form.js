@@ -1,7 +1,6 @@
-
 function validateForm() {
-    if (validatUname()){
-        if(ValidateEmail()){
+    if (validateEmail()){
+        if(validateUname()){
             return true;
         }
     } else {
@@ -15,7 +14,7 @@ function validateEmail() {
          console.log("The world is black");
          error.className = "bad";
          error.innerHTML="Fill in your email please.";
-         return false
+         return false;
 
          } else {
          console.log("The world is rainbows unicorns and lolipops!");
@@ -23,7 +22,7 @@ function validateEmail() {
          return true;
          }
 }
-function validatUname() {
+function validateUname() {
     var uname = document.getElementById('uname').value.length;
     var unameError = document.getElementById('uname-error');
     if(uname >= 8){
