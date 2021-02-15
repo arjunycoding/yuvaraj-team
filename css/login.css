@@ -48,8 +48,7 @@ input.login{
     float:right;
 }
 
-.login-img{
-    border: 2px solid coral;
+.logo{
     border-radius: 10px;
     margin:-5% 10% 5% 10%;
     width:400px;
