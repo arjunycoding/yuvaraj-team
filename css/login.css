@@ -88,10 +88,3 @@ fieldset{
     text-align: center;
     line-height:0.5;
 }
-
-.good {
-    display:none;
-}
-.bad {
-    display:inline-block;
-}
